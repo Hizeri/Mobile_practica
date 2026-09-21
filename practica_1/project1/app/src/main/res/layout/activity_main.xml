@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CatWorld"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonGetBreeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Показать породы кошек" />
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Введите название породы"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Найти породу" />
+
+        <Button
+            android:id="@+id/buttonDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Показать карточку Бенгальской кошки" />
+
+        <Button
+            android:id="@+id/buttonAddFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить Бенгальскую кошку в избранное" />
+
+        <Button
+            android:id="@+id/buttonShowFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показать избранное" />
+
+        <Button
+            android:id="@+id/buttonDeleteFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Удалить Бенгальскую кошку из избранного" />
+
+        <Button
+            android:id="@+id/buttonRecognize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Распознать породу по фото" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Результат"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Поле для ввода названия фильма -->
+    <EditText
+        android:id="@+id/editTextMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название фильма" />
+
+    <!-- Кнопка сохранения фильма -->
+    <Button
+        android:id="@+id/buttonSaveMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить фильм" />
+
+    <!-- Кнопка получения любимого фильма -->
+    <Button
+        android:id="@+id/buttonGetMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Получить любимый фильм" />
+
+    <!-- Здесь будет отображаться результат работы -->
+    <TextView
+        android:id="@+id/textViewMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Результат"
+        android:textSize="18sp"
+        android:paddingTop="24dp" />
+
+</LinearLayout>

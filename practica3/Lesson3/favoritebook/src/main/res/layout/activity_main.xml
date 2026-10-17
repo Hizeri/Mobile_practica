@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAF8FC">
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FavoriteBook"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#6750A4"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Здесь появится результат из второй Activity -->
+    <TextView
+        android:id="@+id/textViewBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тут появится название вашей любимой книги и любимая цитата из неё!"
+        android:textSize="17sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Открываем экран ввода -->
+    <Button
+        android:id="@+id/buttonOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть экран ввода данных"
+        android:backgroundTint="#6750A4"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

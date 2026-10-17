@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAF8FC">
+
+    <!-- Заголовок практической -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Практическая работа №3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6750A4"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Название задания -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 1.9  SystemIntentsApp"
+        android:textSize="17sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="28dp"/>
+
+    <!-- Открытие набора номера -->
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Позвонить"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6750A4"/>
+
+    <!-- Открытие браузера -->
+    <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть браузер"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6750A4"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Открытие карты -->
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть карту"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6750A4"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

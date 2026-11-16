@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Заглушка: показывается, пока Picasso загружает фото, или при ошибке. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="88dp"
+    android:height="88dp"
+    android:viewportWidth="88"
+    android:viewportHeight="88">
+    <path android:fillColor="#E1DCE9" android:pathData="M0,0h88v88h-88z" />
+    <path android:strokeColor="#8C829E" android:strokeWidth="2.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M18,22h52v44h-52z" />
+    <path android:strokeColor="#8C829E" android:strokeWidth="2.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M22,58l14,-15 10,9 10,-12 10,18" />
+    <path android:fillColor="#8C829E" android:pathData="M52,31a4,4 0,1 0,8 0a4,4 0,1 0,-8 0" />
+</vector>

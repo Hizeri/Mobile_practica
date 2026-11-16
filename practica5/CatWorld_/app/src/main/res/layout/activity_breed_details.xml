@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Экран подробной информации о породе. -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBFF"
+    android:fillViewport="true">
+
+    <!-- Все элементы расположены вертикально. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Кнопка возврата в каталог. -->
+        <Button
+            android:id="@+id/detailsBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Назад"
+            android:textAllCaps="false"
+            android:backgroundTint="#6750A4"
+            android:textColor="#FFFFFF" />
+
+        <!-- Большая фотография породы. -->
+        <ImageView
+            android:id="@+id/detailsBreedImage"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Фотография кошки" />
+
+        <!-- Название породы. -->
+        <TextView
+            android:id="@+id/detailsBreedName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Название породы"
+            android:textColor="#302A3A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Заголовок раздела с описанием. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="О породе"
+            android:textColor="#302A3A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Описание выбранной породы. -->
+        <TextView
+            android:id="@+id/detailsBreedDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="5dp"
+            android:text="Описание породы"
+            android:textColor="#55505E"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
